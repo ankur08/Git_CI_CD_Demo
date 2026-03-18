@@ -6,7 +6,8 @@
 //
 
 import Foundation
-struct TodoTask : Identifiable {
+struct TodoTask: Identifiable {
     let id = UUID()
-    var name :  String
+    var name: String
+    var isCompleted: Bool = false
 }
