@@ -32,7 +32,7 @@ struct ContentView: View {
                             Button {
                                 markComplete(task: task)
                             } label: {
-                                Label("Complete", systemImage: "checkmark")
+                                Label("Done", systemImage: "checkmark")
                             }
                             .tint(.green)
                         }
